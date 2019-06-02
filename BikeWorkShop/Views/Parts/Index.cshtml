@@ -1,0 +1,52 @@
+﻿@model IEnumerable<BikeWorkShop.Models.Part>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.PartName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PartCost)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+           // decimal sum = 0M;
+           // int counter = 0;
+
+        @foreach (var item in Model)
+        {
+           // @sum = sum + item.PartCost;
+           // @counter = counter + 1; 
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PartName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PartCost)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+
+          //  decimal averageSum = sum / counter;
+
+            }
+    </tbody>
+</table>

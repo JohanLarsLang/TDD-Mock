@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeWorkShop", "BikeWorkShop\BikeWorkShop.csproj", "{E3F4E41E-B764-4A70-9C4A-740872877C1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{541FE47C-392A-4A26-8211-7DAADD6C0BDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3F4E41E-B764-4A70-9C4A-740872877C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F4E41E-B764-4A70-9C4A-740872877C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F4E41E-B764-4A70-9C4A-740872877C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F4E41E-B764-4A70-9C4A-740872877C1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541FE47C-392A-4A26-8211-7DAADD6C0BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541FE47C-392A-4A26-8211-7DAADD6C0BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541FE47C-392A-4A26-8211-7DAADD6C0BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541FE47C-392A-4A26-8211-7DAADD6C0BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0C9BA74-8000-4BF0-ABD9-0797D79A87C1}
+	EndGlobalSection
+EndGlobal
